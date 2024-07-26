@@ -1,0 +1,103 @@
+.main-banner {
+    position: relative;
+    
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .banner-content h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .banner-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .banner-buttons {
+    margin-top: 20px;
+  }
+  
+  .banner-buttons .btn-shop-now,
+  .banner-buttons .btn-explore {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-buttons .btn-shop-now {
+    background-color: #ff5722;
+    color: white;
+  }
+  
+  .banner-buttons .btn-shop-now:hover {
+    background-color: #e64a19;
+  }
+  
+  .banner-buttons .btn-explore {
+    background-color: #009688; 
+    color: white;
+  }
+  
+  .banner-buttons .btn-explore:hover {
+    background-color: #00796b;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .main-banner {
+      height: 300px;
+    }
+  
+    .banner-content h1 {
+      font-size: 2em;
+    }
+  
+    .banner-content p {
+      font-size: 1em;
+    }
+  
+    .banner-buttons .btn-shop-now,
+    .banner-buttons .btn-explore {
+      font-size: 0.9em;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-banner {
+      height: 250px;
+    }
+  
+    .banner-content h1 {
+      font-size: 1.5em;
+    }
+  
+    .banner-content p {
+      font-size: 0.9em;
+    }
+  
+    .banner-buttons .btn-shop-now,
+    .banner-buttons .btn-explore {
+      font-size: 0.8em;
+      padding: 6px 12px;
+    }
+  }
+  

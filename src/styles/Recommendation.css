@@ -1,0 +1,79 @@
+/* Recommendation.css */
+
+.recommendation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  .recommendation-title {
+    font-size: 1.2rem; /* Reduced size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .recommendation-button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Add gap between buttons */
+  }
+  
+  .recommendation-button button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+  }
+  
+  .recommendation-button .all-products:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .recommendation-button .van:hover {
+    background-color: yellow;
+  }
+  
+  .recommendation-button .adidas:hover {
+    background-color: blue;
+  }
+  
+  .recommendation-button .nike:hover {
+    background-color: black;
+    color: white;
+  }
+  
+    
+  .recommendation-button .bale:hover {
+    background-color:bisque;
+  }
+  
+  .recommendation-button .puma:hover {
+    background-color: orange;
+  }
+  
+  .recommendation-button button:hover {
+    transform: scale(1.2); 
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .recommendation-button {
+      flex-direction: column;
+    }
+  
+    .recommendation-button button {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+    }
+  }
+  

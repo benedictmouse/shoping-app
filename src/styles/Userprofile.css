@@ -1,0 +1,109 @@
+.profile {
+    padding: 20px;
+    max-width: 600px; /* Increase the width */
+    height: 600px; /* Decrease the height */
+    margin: 60px auto; /* Add space between navbar/footer and the profile container */
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .profile_container {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .wishlist-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .profile_detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .avatar_wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .avatar_wrapper img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .avatar_form input {
+    display: none;
+  }
+  
+  .avatar_form label {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2em;
+  }
+  
+  .profile_avatar-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .profile_form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .profile_form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.1);
+    background-color:orange;
+  }
+  

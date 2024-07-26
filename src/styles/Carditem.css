@@ -1,0 +1,106 @@
+/* CardItem.css */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: white;
+    width: 300px;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-img-container {
+    width: 100%;
+    height: 150px; 
+    overflow: hidden;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+  }
+  
+  .card-body {
+    padding: 10px;
+    flex: 1;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-star {
+    color: gold;
+  }
+  
+  .card-reviews {
+    margin-left: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .prev-card-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .new-card-price {
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .card-company,
+  .card-color,
+  .card-category {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-to-cart-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: darkorange;
+  }
+  
+  .like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #ccc;
+  }
+  
+  .like-button.liked {
+    color: red;
+  }
+  
+  .like-button:hover {
+    color: #ff6666;
+  }
+  
